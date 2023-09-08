@@ -1,0 +1,3 @@
+Output of the program is:
+size of union=4
+size 0f structure=12
