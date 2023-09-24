@@ -1,0 +1,12 @@
+PS F:\My Videos\Diploma\GitHub Repo\Unit3_Embedded_C\Lesson 3 Assignments> arm-none-eabi-nm.exe main.o
+00000000 T main
+00000000 D R_ODR
+PS F:\My Videos\Diploma\GitHub Repo\Unit3_Embedded_C\Lesson 3 Assignments> arm-none-eabi-nm.exe startup.o
+00000000 t _reset
+         U main
+00000006 t Vector_handler
+PS F:\My Videos\Diploma\GitHub Repo\Unit3_Embedded_C\Lesson 3 Assignments> arm-none-eabi-nm.exe .\learn-in-depth_cortexM3.elf
+0000007c t _reset
+00000000 T main
+00000084 D R_ODR
+00000082 t Vector_handler
