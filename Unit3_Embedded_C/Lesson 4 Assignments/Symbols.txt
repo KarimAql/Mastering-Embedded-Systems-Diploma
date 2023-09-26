@@ -1,0 +1,28 @@
+PS F:\My Videos\Diploma\GitHub Repo\Unit3_Embedded_C\Lesson 4 Assignments> arm-none-eabi-nm.exe main.o
+00000000 T main
+PS F:\My Videos\Diploma\GitHub Repo\Unit3_Embedded_C\Lesson 4 Assignments> arm-none-eabi-nm.exe startup.o
+         U _E_bss
+         U _E_data
+         U _E_text
+         U _S_bss
+         U _S_data
+00000000 T Default_Handler
+00000000 R f_p_fn_vectors
+00000000 W H_Fault_Handler
+         U main
+00000000 W NMI_Handler
+0000000c T Reset_Handler
+00000000 b Stack_top
+PS F:\My Videos\Diploma\GitHub Repo\Unit3_Embedded_C\Lesson 4 Assignments> arm-none-eabi-nm.exe unit3_lab4_cortexM4.axf
+20000400 B _E_bss
+20000000 T _E_data
+00000134 T _E_text
+20000000 B _S_bss
+20000000 T _S_data
+000000a4 T Default_Handler
+00000000 T f_p_fn_vectors
+000000a4 W H_Fault_Handler
+00000010 T main
+000000a4 W NMI_Handler
+000000b0 T Reset_Handler
+20000000 b Stack_top
