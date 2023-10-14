@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1696697125 source:f:\my videos\diploma\github repo\unit4_system_architecture\lesson 1 assignments\fifo buffer\fifo buffer\main.c
+	<stdio.h>
+	<stdint.h>
+	"fifo.h"
+
+1696697242 f:\my videos\diploma\github repo\unit4_system_architecture\lesson 1 assignments\fifo buffer\fifo buffer\fifo.h
+	<stdio.h>
+	<stdint.h>
+
